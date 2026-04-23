@@ -1,9 +1,9 @@
 FROM python:3.9
-RUN git clone -b Kazu-Userbot https://github.com/ixally/Kazu-Userbot /home/Kazuuserbot/ \
-    && chmod 777 /home/Kazuuserbot \
-    && mkdir /home/Kazuuserbot/bin/
+RUN git clone -b IXALL-Userbot https://github.com/ixally/IXALL-Userbot /home/IXALLUserbot/ \
+    && chmod 777 /home/IXALLUserbot \
+    && mkdir /home/IXALLUserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/Kazuuserbot/
+COPY ./sample_config.env ./config.env* /home/IXALLUserbot/
 
 WORKDIR /home/Kazuuserbot/
 
