@@ -3,7 +3,7 @@
   "description": "-𝗕𝗬 @jPipis on telegram-",
   "logo": "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg",
   "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
-  "repository": "https://github.com/ixally/Kazu-Userbot",
+  "repository": "https://github.com/ixally/IXALL-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
