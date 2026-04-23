@@ -5,7 +5,7 @@ RUN git clone -b IXALL-Userbot https://github.com/ixally/IXALL-Userbot /home/IXA
 
 COPY ./sample_config.env ./config.env* /home/IXALLUserbot/
 
-WORKDIR /home/Kazuuserbot/
+WORKDIR /home/IXALLUserbot/
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade pip setuptools wheel
